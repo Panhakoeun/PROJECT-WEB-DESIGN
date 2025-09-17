@@ -764,7 +764,7 @@ body {
 }
 
 .service {
-  height: 150vh;
+  height: 70vh;
   background: white;
 }
 
@@ -822,6 +822,17 @@ body {
 
 .service .service-cards .service-card1 .info-service1 {
   padding-left: 10px;
+}
+
+.orders-page {
+  height: 70vh;
+}
+
+.orders-page .orders-title h2 {
+  font-size: 45px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 35px;
 }
 
 * {

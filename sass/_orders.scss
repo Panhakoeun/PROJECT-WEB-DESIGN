@@ -1,0 +1,11 @@
+.orders-page{
+    height: 70vh;
+
+    .orders-title{
+         h2{
+            @include title;
+            text-align: center;
+            padding-top: 35px;
+         }
+    }
+}
