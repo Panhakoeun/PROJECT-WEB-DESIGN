@@ -1,0 +1,44 @@
+.service {
+    height: 150vh;
+    background: white;
+
+    .info-head {
+        h2 {
+            @include title;
+            text-align: center;
+            padding-top: 35px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+    .service-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 45px;
+
+        .service-card1 {
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid gray;
+            width: 350px;
+            height: 150px;
+            border-radius: 10px;
+            &:hover{
+                background: grey;
+                transform: translateY(-10px);
+            }
+            h4{
+                font-size: 22px;
+            }
+            .info-service1{
+                padding-left: 10px;
+            }
+        }
+    }
+}

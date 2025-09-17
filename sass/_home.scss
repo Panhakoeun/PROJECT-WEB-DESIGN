@@ -1,0 +1,116 @@
+.home-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/bg2.png") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: $text-color;
+
+
+    .info-home {
+        width: 450px;
+
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            line-height: 1;
+
+            b {
+                font-size: 48px;
+                font-family: "Arial Black", Arial, sans-serif;
+                color: $secondary-color;
+
+
+            }
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: #f1f1f1;
+            padding-top: 8px;
+        }
+
+        button {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: $primary-color;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: $text-color;
+
+            &:hover {
+                background: $background-dark;
+            }
+        }
+    }
+}
+
+.product {
+    height: 95vh;
+    background: $bg-product;
+    cursor: pointer;
+
+
+    .info-product {
+        @include info-product;
+
+        h2 {
+            @include title;
+        }
+
+    }
+
+    .card-product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        flex-wrap: wrap;
+        padding: 20px;
+
+        .card1 {
+            position: relative;
+            z-index: 1;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s;
+
+            &:hover {
+                transform: translateY(-10px);
+                background-color: gainsboro;
+            }
+
+            img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                margin: 10px 0;
+                font-size: 20px;
+                color: $background-dark;
+            }
+
+            button {
+                @include button;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+
+
+        }
+    }
+
+}

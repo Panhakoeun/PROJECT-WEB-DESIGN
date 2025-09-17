@@ -1,0 +1,310 @@
+.menu-page {
+    height: 380vh;
+    @include bg-menu;
+
+    .menu-info {
+        @include info-product;
+
+        h2 {
+            @include title;
+        }
+    }
+
+    .recoment {
+        h4 {
+            padding-left: 95px;
+            font-size: 20px;
+        }
+
+        .display-info {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+            margin-left: 95px;
+            margin-top: 10px;
+
+            .display-info1 {
+                border: 1px solid gray;
+                @include button;
+
+            }
+
+            .display-info2 {
+                @include button-outline;
+
+                &:hover {
+                    background-color: $primary-color;
+                    color: $text-color;
+                }
+            }
+        }
+    }
+
+    .show-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .card-menu {
+            border: 1px solid grey;
+            width: 250px;
+            height: 350px;
+            border-radius: 10px;
+            background: ghostwhite;
+            margin-top: 20px;
+
+            &:hover {
+                transform: translateY(-10px);
+                background: gainsboro;
+            }
+
+
+
+            .menu-card1 {
+                display: flex;
+                justify-content: space-between;
+
+                .shoes-info {
+                    padding: 5px;
+
+                    h4 {
+                        font-size: 20px;
+                    }
+
+                    h5 {
+                        color: grey;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: red;
+                    }
+
+                    .icon {
+                        display: flex;
+                        gap: 5px;
+
+
+                    }
+
+
+
+
+
+                }
+
+                .icon-sel {
+                    padding-right: 20px;
+                    padding-top: 40px;
+
+
+                }
+            }
+        }
+    }
+
+    .btn-more {
+        @include align-btn;
+
+        button {
+            @include button-outline;
+        }
+    }
+
+    .product-detail {
+        @include info-product;
+
+
+        h2 {
+            @include title;
+        }
+
+    }
+
+    .display-picture {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        padding-top: 40px;
+
+
+        .picture-product {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: start;
+            gap: 20px;
+
+            .picture {
+                border: 0.5px solid gray;
+                width: 595px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 100px;
+                background-color: ghostwhite;
+                border-radius: 5px;
+            }
+
+            .small-picture {
+                display: flex;
+                gap: 10px;
+
+                .small-pic1 {
+                    border: 1px solid orangered;
+                    margin-left: 100px;
+                    border-radius: 5px;
+                    height: 130px;
+                    background-color: ghostwhite;
+
+                }
+
+                .small-pic2 {
+                    border: 1px solid gray;
+                    height: 130px;
+                    border-radius: 5px;
+                    background-color: ghostwhite;
+
+                    &:hover {
+                        border: 1px solid orangered;
+                    }
+                }
+            }
+        }
+
+        .info-picture {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h3 {
+                font-size: 28px;
+                font-weight: 400;
+            }
+
+            h4 {
+                font-size: 20px;
+
+            }
+
+            .icon-picture {
+                display: flex;
+                gap: 10px;
+
+                .icon-pic2 {
+                    p {
+                        font-size: 18px;
+                        color: grey;
+
+                    }
+
+                }
+            }
+        }
+
+        .description-pic {
+            border: 1px solid gray;
+            width: 600px;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .color1 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .color-info {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+                .color {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 3px solid #ddd;
+                    cursor: pointer;
+                    transition: 0.3s;
+
+                    &:hover {
+                        border: 1px solid orangered;
+                    }
+                }
+
+            }
+        }
+
+        .size-info {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            .size {
+                text-align: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                border: 3px solid #ddd;
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    border: 1px solid orangered;
+                }
+            }
+        }
+
+        .btn-picture {
+            button {
+                @include button;
+            }
+            .icon-btn{
+                display: flex;
+                flex-direction: row;
+                gap: 35px;
+                padding-top: 20px;
+                border: 1px solid grey;
+                @include border-top;
+                
+                .icon-fa1{
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+            .code-product{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 10px;
+
+                .code-shoes{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    h4{
+                        font-weight: 400;
+                        color: red;
+                    }
+                }
+                .social-shoes{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                     h4{
+                        font-weight: 400;
+                        color: red;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
