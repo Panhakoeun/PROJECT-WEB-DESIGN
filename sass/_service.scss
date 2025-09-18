@@ -1,5 +1,5 @@
 .service {
-    height: 150vh;
+    height: 130vh;
     background: white;
 
     .info-head {
@@ -53,10 +53,99 @@
         .info-discount {
 
             h2 {
-                padding-left: 95px;
-                font-size: 20px;
-                padding-top: 25px;
+                padding-left: 30px;
+                font-size: 30px;
+                padding-top: 30px;
+                font-weight: 600;
             }
         }
+    }
+
+    .show-discount {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+
+        .discount1 {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("../img/discount1.webp") no-repeat center/cover;
+            width: 700px;
+            height: 400px;
+
+            .info-discount {
+                padding-left: 20px;
+                padding-top: 50px;
+
+                h3 {
+                    color: $text-color;
+                    font-size: 30px;
+                }
+
+                h4 {
+                    color: $text-color;
+                    font-size: 70px;
+                }
+
+                .btn-discount {
+
+
+                    button {
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 10px;
+                        color: white;
+                        background-color: orange;
+                        &:hover{
+                            background: gray;
+                            transform: skewY(5px);
+                        }
+                    }
+                }
+            }
+
+
+        }
+        .discount2 {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("../img/discount2.webp") no-repeat center/cover;
+            width: 700px;
+            height: 400px;
+
+            .info-discount {
+                padding-left: 20px;
+                padding-top: 50px;
+
+                h3 {
+                    color: $text-color;
+                    font-size: 30px;
+                }
+
+                h4 {
+                    color: $text-color;
+                    font-size: 70px;
+                }
+
+                .btn-discount {
+
+
+                    button {
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 10px;
+                        color: white;
+                        background-color: orange;
+
+                          &:hover{
+                            background: gray;
+                            transform: skewY(5px);
+                        }
+                    }
+                }
+            }
+
+
+        }
+     
+
     }
 }

@@ -764,7 +764,7 @@ body {
 }
 
 .service {
-  height: 150vh;
+  height: 130vh;
   background: white;
 }
 
@@ -825,9 +825,91 @@ body {
 }
 
 .service .discount-product .info-discount h2 {
-  padding-left: 95px;
-  font-size: 20px;
-  padding-top: 25px;
+  padding-left: 30px;
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+.service .show-discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 40px;
+}
+
+.service .show-discount .discount1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/discount1.webp") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/discount1.webp") no-repeat center/cover;
+  width: 700px;
+  height: 400px;
+}
+
+.service .show-discount .discount1 .info-discount {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.service .show-discount .discount1 .info-discount h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.service .show-discount .discount1 .info-discount h4 {
+  color: #fff;
+  font-size: 70px;
+}
+
+.service .show-discount .discount1 .info-discount .btn-discount button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: orange;
+}
+
+.service .show-discount .discount1 .info-discount .btn-discount button:hover {
+  background: gray;
+  -webkit-transform: skewY(5px);
+          transform: skewY(5px);
+}
+
+.service .show-discount .discount2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/discount2.webp") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/discount2.webp") no-repeat center/cover;
+  width: 700px;
+  height: 400px;
+}
+
+.service .show-discount .discount2 .info-discount {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.service .show-discount .discount2 .info-discount h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.service .show-discount .discount2 .info-discount h4 {
+  color: #fff;
+  font-size: 70px;
+}
+
+.service .show-discount .discount2 .info-discount .btn-discount button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: orange;
+}
+
+.service .show-discount .discount2 .info-discount .btn-discount button:hover {
+  background: gray;
+  -webkit-transform: skewY(5px);
+          transform: skewY(5px);
 }
 
 .orders-page {
