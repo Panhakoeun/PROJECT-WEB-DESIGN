@@ -1,11 +1,69 @@
-.orders-page{
-    height: 70vh;
+.orders-page {
+    height: 300vh;
 
-    .orders-title{
-         h2{
+    .orders-title {
+        h2 {
             @include title;
             text-align: center;
             padding-top: 35px;
-         }
+        }
+        p{
+            text-align: center;
+        }
     }
+
+    .align-discount {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .discount {
+            background: $yellow;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 95%;
+            height: 420px;
+
+            .info-discount{
+                width: 45%;
+
+                h2{
+                    font-size: 48px;
+                    font-weight: 400;
+                    b{
+                        color: red;
+                    }
+                }
+            }
+            .form-discount{
+                display: flex;
+                flex-direction: column;
+
+                label{
+                    font-size: 18px;
+                }
+                input{
+                    width: 400px;
+                    height: 35px;
+                    border-radius: 5px;
+                    border: none;
+                    padding: 5px;
+                }
+                select{
+                    height: 35px;
+                    border-radius: 5px;
+                    border: none;
+                }
+                button{
+                    @include button;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+
 }

@@ -825,7 +825,7 @@ body {
 }
 
 .orders-page {
-  height: 70vh;
+  height: 300vh;
 }
 
 .orders-page .orders-title h2 {
@@ -833,6 +833,91 @@ body {
   padding: 20px;
   text-align: center;
   padding-top: 35px;
+}
+
+.orders-page .orders-title p {
+  text-align: center;
+}
+
+.orders-page .align-discount {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.orders-page .align-discount .discount {
+  background: #E59400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  height: 420px;
+}
+
+.orders-page .align-discount .discount .info-discount {
+  width: 45%;
+}
+
+.orders-page .align-discount .discount .info-discount h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.orders-page .align-discount .discount .info-discount h2 b {
+  color: red;
+}
+
+.orders-page .align-discount .discount .form-discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.orders-page .align-discount .discount .form-discount label {
+  font-size: 18px;
+}
+
+.orders-page .align-discount .discount .form-discount input {
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.orders-page .align-discount .discount .form-discount select {
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.orders-page .align-discount .discount .form-discount button {
+  background: #009688;
+  padding: 6px 14px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+}
+
+.orders-page .align-discount .discount .form-discount button:hover {
+  background: black;
 }
 
 * {
