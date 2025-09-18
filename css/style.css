@@ -764,7 +764,7 @@ body {
 }
 
 .service {
-  height: 70vh;
+  height: 150vh;
   background: white;
 }
 
@@ -824,8 +824,14 @@ body {
   padding-left: 10px;
 }
 
+.service .discount-product .info-discount h2 {
+  padding-left: 95px;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
 .orders-page {
-  height: 300vh;
+  height: 350vh;
 }
 
 .orders-page .orders-title h2 {
@@ -867,12 +873,12 @@ body {
 }
 
 .orders-page .align-discount .discount .info-discount {
-  width: 45%;
+  width: 30%;
 }
 
 .orders-page .align-discount .discount .info-discount h2 {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .orders-page .align-discount .discount .info-discount h2 b {

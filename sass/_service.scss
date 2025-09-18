@@ -1,5 +1,5 @@
 .service {
-    height: 70vh;
+    height: 150vh;
     background: white;
 
     .info-head {
@@ -8,7 +8,8 @@
             text-align: center;
             padding-top: 35px;
         }
-        p{
+
+        p {
             text-align: center;
         }
     }
@@ -29,15 +30,32 @@
             width: 350px;
             height: 150px;
             border-radius: 10px;
-            &:hover{
+
+            &:hover {
                 background: grey;
                 transform: translateY(-10px);
             }
-            h4{
+
+            h4 {
                 font-size: 22px;
             }
-            .info-service1{
+
+            .info-service1 {
                 padding-left: 10px;
+            }
+        }
+
+
+    }
+
+    .discount-product {
+
+        .info-discount {
+
+            h2 {
+                padding-left: 95px;
+                font-size: 20px;
+                padding-top: 25px;
             }
         }
     }
