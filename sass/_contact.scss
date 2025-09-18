@@ -1,0 +1,58 @@
+.contact{
+    height: 100vh;
+    @include bg-menu;
+
+    .contact-info{
+
+        h2{
+            
+            padding-top: 20px;
+            text-align: center;
+            @include title;
+        }
+
+    }
+    .form-contact{
+        width: 680px;
+        height: 600px;
+        background-color: $text-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 1px 2px 4px gray;
+        margin-top: 50px;
+
+        h3{
+            font-size: 30px;
+            font-weight: 500;
+          
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            input{
+                width: 500px;
+                height: 40px;
+            }
+            textarea{
+                width: 500px;
+                height: 150px;
+            }
+            .btn-contact{
+
+                button{
+                    background: $button-color;
+                    padding: 10px;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
