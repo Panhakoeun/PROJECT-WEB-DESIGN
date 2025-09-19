@@ -1,5 +1,5 @@
 .contact{
-    height: 115vh;
+    height: 190vh;
     @include bg-menu;
 
     .contact-info{
@@ -24,7 +24,7 @@
         
    
     .form-contact{
-        width: 620px;
+        width: 680px;
         height: 600px;
         background-color: $text-color;
         display: flex;
@@ -49,11 +49,11 @@
             gap: 20px;
             
             input{
-                width: 500px;
+                width: 600px;
                 height: 40px;
             }
             textarea{
-                width: 500px;
+                width: 600px;
                 height: 150px;
             }
             .btn-contact{
@@ -96,5 +96,16 @@
 
         }
     }
+   
 }
+ .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        
+        iframe{
+            width: 95%;
+        }
+    }
  }

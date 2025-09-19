@@ -1009,7 +1009,7 @@ body {
 }
 
 .contact {
-  height: 115vh;
+  height: 190vh;
   background-color: #f4f4f4;
 }
 
@@ -1038,7 +1038,7 @@ body {
 }
 
 .contact .display-form .form-contact {
-  width: 620px;
+  width: 680px;
   height: 600px;
   background-color: #fff;
   display: -webkit-box;
@@ -1079,12 +1079,12 @@ body {
 }
 
 .contact .display-form .form-contact .form input {
-  width: 500px;
+  width: 600px;
   height: 40px;
 }
 
 .contact .display-form .form-contact .form textarea {
-  width: 500px;
+  width: 600px;
   height: 150px;
 }
 
@@ -1137,6 +1137,28 @@ body {
 .contact .display-form .contact-2 .contact1:hover {
   background-color: #f8eeee;
   cursor: pointer;
+}
+
+.contact .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.contact .map iframe {
+  width: 95%;
+}
+
+.footer {
+  height: 80vh;
+  background-color: #333;
 }
 
 * {
