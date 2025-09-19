@@ -11,7 +11,7 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     scroll-behavior: smooth;
-    background-color: #f9f9f9;
+   
 }
 
 .navbar {
@@ -20,7 +20,9 @@ body {
     top: 0;
     left: 0;
     padding: 10px 30px;
-    background: $yellow;
+    background: rgb(68, 67, 67);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +53,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 20px;
+      
 
         .nav-right {
             display: flex;
