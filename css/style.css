@@ -1009,7 +1009,7 @@ body {
 }
 
 .contact {
-  height: 100vh;
+  height: 115vh;
   background-color: #f4f4f4;
 }
 
@@ -1020,8 +1020,25 @@ body {
   padding: 20px;
 }
 
-.contact .form-contact {
-  width: 680px;
+.contact .contact-info p {
+  text-align: center;
+}
+
+.contact .display-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.contact .display-form .form-contact {
+  width: 620px;
   height: 600px;
   background-color: #fff;
   display: -webkit-box;
@@ -1031,8 +1048,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1040,14 +1058,16 @@ body {
   -webkit-box-shadow: 1px 2px 4px gray;
           box-shadow: 1px 2px 4px gray;
   margin-top: 50px;
+  cursor: pointer;
 }
 
-.contact .form-contact h3 {
+.contact .display-form .form-contact h3 {
   font-size: 30px;
   font-weight: 500;
+  padding: 20px;
 }
 
-.contact .form-contact .form {
+.contact .display-form .form-contact .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1058,22 +1078,65 @@ body {
   gap: 20px;
 }
 
-.contact .form-contact .form input {
+.contact .display-form .form-contact .form input {
   width: 500px;
   height: 40px;
 }
 
-.contact .form-contact .form textarea {
+.contact .display-form .form-contact .form textarea {
   width: 500px;
   height: 150px;
 }
 
-.contact .form-contact .form .btn-contact button {
+.contact .display-form .form-contact .form .btn-contact button {
   background: #E53935;
   padding: 10px;
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+.contact .display-form .form-contact .form .btn-contact button:hover {
+  background-color: #320404;
+}
+
+.contact .display-form .contact-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.contact .display-form .contact-2 .contact1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 1px 2px 4px gray;
+          box-shadow: 1px 2px 4px gray;
+  width: 220px;
+  height: 185px;
+  border-radius: 10px;
+}
+
+.contact .display-form .contact-2 .contact1:hover {
+  background-color: #f8eeee;
+  cursor: pointer;
 }
 
 * {
