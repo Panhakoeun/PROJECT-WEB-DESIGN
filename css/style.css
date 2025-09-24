@@ -1188,6 +1188,44 @@ body {
   width: 200px;
 }
 
+.footer .info-footer .footer7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .info-footer .footer7 .info1-footer .icon3-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .info-footer .footer7 .info1-footer .icon3-info .icon-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.footer .info-footer .footer7 .info1-footer .icon3-info .icon-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;

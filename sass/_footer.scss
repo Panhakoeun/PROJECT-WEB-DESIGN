@@ -15,15 +15,31 @@
             gap: 30px;
             width: 200px;
 
-            .info-footer3{
-              
-                .cards{
-                   
-                    .card-info3{
-                       
-                        
+        }
+        .footer7{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .info1-footer{
+                
+
+                .icon3-info{
+                    display: flex;
+                    flex-direction: column;
+
+                    .icon-call{
+                        display: flex;
+                        gap: 10px;
+                        padding-top: 5px;
+                    }
+                    .icon-email{
+                        display: flex;
+                        gap: 10px;
+                        padding-top: 5px;
                     }
                 }
+
             }
         }
      }
