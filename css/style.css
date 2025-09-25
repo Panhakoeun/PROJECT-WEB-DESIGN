@@ -1237,13 +1237,21 @@ body {
   gap: 10px;
 }
 
-.footer .info-footer .footer7 .info2-footer .social-media {
+.footer .info-footer .footer7 .info2-footer .social-media1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.footer .info-footer .footer7 .info2-footer .social-media1 .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   gap: 10px;
 }
 

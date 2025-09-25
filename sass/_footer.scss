@@ -49,10 +49,15 @@
                display: flex;
                flex-direction: column;
                gap: 10px;
-                .social-media {
+                .social-media1 {
                     display: flex;
-                    justify-content: center;
-                    gap: 10px;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .social-media{
+                        display: flex;
+                        gap: 10px;
+                    }
                 }
             }
 
