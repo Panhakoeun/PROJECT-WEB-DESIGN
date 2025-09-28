@@ -1295,16 +1295,59 @@ body {
   }
 
 
-.service .show-discount .discount2 {
-  width: 630px;
+  .service .show-discount .discount2 {
+    width: 630px;
+  }
+
+  .service .show-discount .discount2 .info-discount h3 {
+    font-size: 28px;
+  }
+
+  .service .show-discount .discount2 .info-discount h4 {
+    font-size: 60px;
+
+  }
+
 }
 
-.service .show-discount .discount2 .info-discount h3 {
-  font-size: 28px;
-}
+/* Responsive tablete */
 
-.service .show-discount .discount2 .info-discount h4 {
-  font-size: 60px;
 
-}
+@media (min-width: 600px) and (max-width: 1023px) {
+
+  .navbar .logo h2 {
+    font-size: 14px;
+  }
+
+  .navbar .logo img {
+    width: 50px;
+  }
+
+  .navbar .nav-center {
+    display: flex;
+    gap: 1px;
+  }
+
+  .navbar .nav-center li a {
+    font-size: 12px;
+  }
+
+  .navbar .nav-center .nav-right .search {
+    padding: 4px 8px;
+    margin-right: 10px;
+  }
+
+  .navbar .nav-center .nav-right .sign {
+    display: flex;
+    gap: 5px;
+    width: 300px;
+    margin-right: 700px;
+
+  }
+
+  .navbar .nav-center .btn {
+    /* width: 400px; */
+
+  }
+
 }
