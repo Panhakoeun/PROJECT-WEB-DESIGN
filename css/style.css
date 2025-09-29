@@ -409,14 +409,14 @@ body {
   width: 250px;
   height: 350px;
   border-radius: 10px;
-  background: ghostwhite;
+  background: white;
   margin-top: 20px;
 }
 
 .menu-page .show-menu .card-menu:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
-  background: gainsboro;
+  background: white;
 }
 
 .menu-page .show-menu .card-menu .menu-card1 {
@@ -426,6 +426,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  background: white;
 }
 
 .menu-page .show-menu .card-menu .menu-card1 .shoes-info {
@@ -815,10 +816,11 @@ body {
   width: 350px;
   height: 150px;
   border-radius: 10px;
+ 
 }
 
 .service .service-cards .service-card1:hover {
-  background: grey;
+  background: white;
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
@@ -1117,6 +1119,7 @@ body {
   flex-direction: column;
   gap: 20px;
   padding-top: 50px;
+ 
 }
 
 .contact .display-form .contact-2 .contact1 {
@@ -1139,10 +1142,11 @@ body {
   width: 220px;
   height: 185px;
   border-radius: 10px;
+  background: white;
 }
 
 .contact .display-form .contact-2 .contact1:hover {
-  background-color: #f8eeee;
+  background-color: white;
   cursor: pointer;
 }
 
