@@ -1314,6 +1314,9 @@ body {
 
 
 @media (min-width: 600px) and (max-width: 1023px) {
+  .navbar .logo {
+    margin-left: -30px;
+  }
 
   .navbar .logo h2 {
     font-size: 14px;
@@ -1321,33 +1324,222 @@ body {
 
   .navbar .logo img {
     width: 50px;
+
   }
 
   .navbar .nav-center {
     display: flex;
+    padding-right: 20px;
     gap: 1px;
   }
 
   .navbar .nav-center li a {
     font-size: 12px;
+
+  }
+
+  .navbar .nav-center .nav-right {
+    display: flex;
+    margin-right: -45px;
+
   }
 
   .navbar .nav-center .nav-right .search {
-    padding: 4px 8px;
+    padding: 4px 4px;
     margin-right: 10px;
   }
 
   .navbar .nav-center .nav-right .sign {
     display: flex;
     gap: 5px;
-    width: 300px;
-    margin-right: 700px;
+    width: 195px;
+  }
+
+  .home-page {
+    height: 60vh;
 
   }
 
-  .navbar .nav-center .btn {
-    /* width: 400px; */
+  .home-page .info-home {
+    margin-left: -50px;
+    width: 390px;
+  }
 
+  .home-page .info-home h1 {
+    font-size: 50px;
+  }
+
+  .home-page .info-home h1 b {
+    font-size: 40px;
+  }
+
+  .menu-page {
+    height: 370vh;
+  }
+
+  .menu-page .recoment .display-info {
+    margin-left: 20px;
+  }
+
+  .menu-page .show-menu {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .menu-page .show-menu .card-menu {
+    width: 250px;
+  }
+
+  .menu-page .product-detail {
+    padding: 10px;
+  }
+
+  .menu-page .display-picture {
+    margin-left: -85px;
+
+  }
+
+  .menu-page .display-picture .picture-product .picture {
+    width: 400px;
+    border: 1px solid gray;
+  }
+
+  .menu-page .display-picture .picture-product .small-picture .small-pic1 {
+    height: 120px;
+    width: 130px;
+  }
+
+  .menu-page .display-picture .picture-product .small-picture .small-pic2 {
+    height: 120px;
+    width: 130px;
+  }
+
+  .menu-page .display-picture .info-picture {
+    margin-left: -220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .menu-page .display-picture .description-pic {
+    width: 350px;
+  }
+
+  .service {
+    height: 85vh;
+  }
+
+  .service .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .service .service-cards .service-card1 {
+    width: 350px;
+  }
+
+  .service .show-discoun {
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+  .service .show-discount .discount1 {
+    height: 350px;
+    width: 400px;
+  }
+
+  .service .show-discount .discount1 .info-discount {
+    padding-left: 10px;
+  }
+
+  .service .show-discount .discount1 .info-discount h3 {
+    font-size: 25px;
+  }
+
+  .service .show-discount .discount1 .info-discount h4 {
+    font-size: 50px;
+  }
+
+  .service .show-discount .discount1 .info-discount .btn-discount button {
+    width: 120px;
+  }
+
+  .service .show-discount .discount2 {
+    height: 350px;
+    width: 400px;
+  }
+
+  .service .show-discount .discount2 .info-discount {
+    padding-left: 10px;
+  }
+
+  .service .show-discount .discount2 .info-discount h3 {
+    font-size: 25px;
+  }
+
+  .service .show-discount .discount2 .info-discount h4 {
+    font-size: 50px;
+  }
+
+  .service .show-discount .discount2 .info-discount .btn-discount button {
+    width: 120px;
+
+  }
+
+.orders-page {
+  height: 60vh;
+}
+  .orders-page .align-discount .discount {
+    width: 96%;
+    height: 450px;
+  }
+
+  .orders-page .align-discount .discount .info-discount {
+    padding-right: 35px;
+  }
+
+  .orders-page .align-discount .discount .info-discount h2 {
+    font-size: 40px;
+
+  }
+
+  .orders-page .align-discount .discount .form-discount input {
+    width: 290px;
+  }
+
+  .orders-page .align-discount .discount .form-discount {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contact{
+    height: 115vh;
+  }
+
+.contact .display-form{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+  .contact .display-form .form-contact {
+    width: 530px;
+  }
+  .contact .display-form .form-contact .form input {
+    width: 490px;
+  }
+  .contact .display-form .form-contact .form textarea{
+    width: 490px;
+  }
+  .footer{
+    height: 30vh;
   }
 
 }
