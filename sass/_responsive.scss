@@ -29,6 +29,7 @@
           h3 {
             font-size: 28px;
           }
+
           h4 {
             font-size: 60px;
           }
@@ -42,6 +43,7 @@
           h3 {
             font-size: 28px;
           }
+
           h4 {
             font-size: 60px;
           }
@@ -110,7 +112,13 @@
         }
       }
     }
+
   }
+
+  .product {
+    padding-bottom: 80px;
+  }
+
 
   .menu-page {
     height: 380vh;
@@ -149,6 +157,7 @@
             height: 120px;
             width: 130px;
           }
+
           .small-pic2 {
             height: 120px;
             width: 130px;
@@ -170,6 +179,7 @@
   }
 
   .service {
+    margin-top: 50%;
     height: 85vh;
 
     .service-cards {
@@ -198,6 +208,7 @@
           h3 {
             font-size: 25px;
           }
+
           h4 {
             font-size: 50px;
           }
@@ -220,6 +231,7 @@
           h3 {
             font-size: 25px;
           }
+
           h4 {
             font-size: 50px;
           }
@@ -235,6 +247,7 @@
   }
 
   .orders-page {
+    margin-top: 20%;
     height: 60vh;
 
     .align-discount {
@@ -276,18 +289,25 @@
         width: 530px;
 
         .form {
+          
           input {
             width: 490px;
           }
+
           textarea {
             width: 490px;
           }
         }
       }
+     
+      
     }
+    
   }
 
   .footer {
+    margin-top: 5%;
     height: 30vh;
+   
   }
 }
