@@ -1,5 +1,5 @@
 .menu-page {
-    height: 450vh;
+    height: 495vh;
     @include bg-menu;
 
     .menu-info {
@@ -128,6 +128,7 @@
 
     .product-detail {
         @include info-product;
+        margin-top: 75px;
 
 
         h2 {

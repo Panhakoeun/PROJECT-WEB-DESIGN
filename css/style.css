@@ -332,7 +332,7 @@ body {
 }
 
 .menu-page {
-  height: 450vh;
+  height: 495vh;
   background-color: #f4f4f4;
 }
 
@@ -545,6 +545,7 @@ body {
           align-items: center;
   text-align: center;
   padding: 20px;
+  margin-top: 75px;
 }
 
 .menu-page .product-detail h2 {
@@ -1052,7 +1053,7 @@ body {
 }
 
 .contact {
-  height: 190vh;
+  height: 200vh;
   background-color: #f4f4f4;
 }
 
@@ -1311,9 +1312,6 @@ body {
     display: flex;
     gap: 5px;
   }
-  .menu-page {
-    height: 430vh;
-  }
   .service .show-discount {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1393,7 +1391,7 @@ body {
     font-size: 40px;
   }
   .menu-page {
-    height: 370vh;
+    height: 380vh;
   }
   .menu-page .recoment .display-info {
     margin-left: 20px;

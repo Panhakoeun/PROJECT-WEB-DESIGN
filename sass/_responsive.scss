@@ -1,5 +1,5 @@
 /* responsive laptop */
-@media screen and (min-width: 1024px) and (max-width: 1920px){
+@media (min-width: 1024px) {
   .navbar {
     .logo {
       h2 {
@@ -13,9 +13,9 @@
     }
   }
 
-  .menu-page {
-    height: 430vh;
-  }
+  // .menu-page {
+  //   height: 480vh;
+  // }
 
   .service {
     .show-discount {
@@ -113,7 +113,7 @@
   }
 
   .menu-page {
-    height: 370vh;
+    height: 380vh;
 
     .recoment {
       .display-info {
