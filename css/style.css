@@ -1235,7 +1235,7 @@ body {
 }
 
 .footer .info-footer .footer7 {
-  margin-top: -1.5%;
+  margin-top: -1.8%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1549,6 +1549,9 @@ body {
   .footer {
     margin-top: 5%;
     height: 30vh;
+  }
+  .footer .info-footer .footer7 {
+    margin-top: -3%;
   }
 }
 

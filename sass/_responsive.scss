@@ -289,7 +289,7 @@
         width: 530px;
 
         .form {
-          
+
           input {
             width: 490px;
           }
@@ -299,15 +299,22 @@
           }
         }
       }
-     
-      
+
+
     }
-    
+
   }
 
   .footer {
     margin-top: 5%;
     height: 30vh;
-   
+
+    .info-footer {
+      .footer7 {
+        margin-top: -3%;
+      }
+
+    }
+
   }
 }
