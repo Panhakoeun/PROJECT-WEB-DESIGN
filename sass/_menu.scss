@@ -27,14 +27,25 @@
                 border: 1px solid gray;
                 @include button;
 
+                a {
+                    text-decoration: none;
+                    color: white
+                }
+
             }
 
             .display-info2 {
                 @include button-outline;
 
+                a {
+                    text-decoration: none;
+                    // color: black;
+                  
+                }
+
                 &:hover {
                     background-color: $primary-color;
-                    color: $text-color;
+                    color: white;
                 }
             }
         }
@@ -264,40 +275,45 @@
             button {
                 @include button;
             }
-            .icon-btn{
+
+            .icon-btn {
                 display: flex;
                 flex-direction: row;
                 gap: 35px;
                 padding-top: 20px;
                 border: 1px solid grey;
                 @include border-top;
-                
-                .icon-fa1{
+
+                .icon-fa1 {
                     display: flex;
                     gap: 10px;
                 }
             }
-            .code-product{
+
+            .code-product {
                 display: flex;
                 justify-content: space-between;
                 padding-top: 10px;
 
-                .code-shoes{
+                .code-shoes {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     gap: 20px;
-                    h4{
+
+                    h4 {
                         font-weight: 400;
                         color: red;
                     }
                 }
-                .social-shoes{
+
+                .social-shoes {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     gap: 20px;
-                     h4{
+
+                    h4 {
                         font-weight: 400;
                         color: red;
                     }

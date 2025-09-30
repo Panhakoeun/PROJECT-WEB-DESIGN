@@ -126,10 +126,13 @@ body {
 
 .navbar .nav-center li a:hover {
   color: #009688;
-  text-decoration: underline;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #009688;
 }
 
 .navbar .nav-center li a.active {
+  position: relative;
+  padding-bottom: 5px;
   border-bottom: 2px solid #009688;
   color: #009688;
 }
@@ -386,6 +389,11 @@ body {
   background: black;
 }
 
+.menu-page .recoment .display-info .display-info1 a {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-page .recoment .display-info .display-info2 {
   border: 1px solid #009688;
   text-align: center;
@@ -407,9 +415,13 @@ body {
   color: #fff;
 }
 
+.menu-page .recoment .display-info .display-info2 a {
+  text-decoration: none;
+}
+
 .menu-page .recoment .display-info .display-info2:hover {
   background-color: #009688;
-  color: #fff;
+  color: white;
 }
 
 .menu-page .show-menu {

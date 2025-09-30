@@ -104,13 +104,14 @@ body {
 
             &:hover {
                 color: $primary-color;
-                text-decoration: underline;
-
-
+                padding-bottom: 5px;    
+                border-bottom: 2px solid #009688;
             }
 
 
             &.active {
+                position: relative;
+                padding-bottom: 5px;
                 border-bottom: 2px solid $primary-color;
                 color: $primary-color;
             }
