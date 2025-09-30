@@ -1,5 +1,5 @@
 /* responsive laptop */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1920px){
   .navbar {
     .logo {
       h2 {
