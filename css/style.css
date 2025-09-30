@@ -174,10 +174,34 @@ body {
   width: 450px;
 }
 
+@-webkit-keyframes glowPulse {
+  0%, 100% {
+    text-shadow: 0 0 5px #009688, 0 0 10px #009688;
+    color: #009688;
+  }
+  50% {
+    text-shadow: 0 0 20px #009688, 0 0 30px #009688;
+    color: #00e3cd;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    text-shadow: 0 0 5px #009688, 0 0 10px #009688;
+    color: #009688;
+  }
+  50% {
+    text-shadow: 0 0 20px #009688, 0 0 30px #009688;
+    color: #00e3cd;
+  }
+}
+
 .home-page .info-home h1 {
   font-size: 60px;
   margin: 0;
   line-height: 1;
+  -webkit-animation: glowPulse 2s infinite ease-in-out;
+          animation: glowPulse 2s infinite ease-in-out;
 }
 
 .home-page .info-home h1 b {
@@ -818,7 +842,7 @@ body {
 }
 
 .service .service-cards .service-card1:hover {
-  background: grey;
+  background: white;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
