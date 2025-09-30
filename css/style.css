@@ -1313,6 +1313,9 @@ body {
     display: flex;
     gap: 5px;
   }
+  .menu-page {
+    height: 420vh;
+  }
   .service .show-discount {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1444,7 +1447,7 @@ body {
     width: 350px;
   }
   .service {
-    margin-top: 50%;
+    margin-top: 60%;
     height: 85vh;
   }
   .service .service-cards {
