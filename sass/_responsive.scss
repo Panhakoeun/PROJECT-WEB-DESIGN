@@ -1,9 +1,10 @@
 /* responsive laptop */
 @media (min-width: 1024px) {
- 
-.product{
-  height: 100vh;
-} 
+
+  .product {
+    height: 100vh;
+  }
+
   .navbar {
     .logo {
       h2 {
@@ -23,6 +24,7 @@
 
   .service {
     margin-top: 100px;
+
     .show-discount {
       display: flex;
       justify-content: space-around;
@@ -472,7 +474,7 @@
   }
 
   .menu-page {
-    height: 1580vh;
+    height: 1500vh;
 
     .menu-info {
       h2 {
@@ -533,25 +535,366 @@
     .display-picture {
       display: flex;
       flex-direction: column;
+
       .picture-product {
-        display: flex;
-        flex-direction: row;
-        
-        .picture{
-          margin-left: 5px;
-          width: 150px;
-          height: 200px;
-          img{
-            width: 120px;
+        margin-left: -55px;
+
+        .picture {
+          height: 240px;
+          width: 290px;
+
+          img {
+            width: 130px;
           }
         }
-        .small-picture{
-          
-          
+
+        .small-picture {
+          .small-pic1 {
+            height: 70px;
+            width: 63px;
+
+            img {
+              width: 60px;
+            }
+          }
+
+          .small-pic2 {
+            height: 70px;
+            width: 63px;
+
+            img {
+              width: 60px;
+            }
+          }
+        }
+      }
+
+      .info-picture {
+        padding-left: 8px;
+        padding-right: 8px;
+
+        h3 {
+          font-size: 20px;
+        }
+
+        h4 {
+          font-size: 18px;
+        }
+
+      }
+
+      .description-pic {
+        p {
+          width: 380px;
+
+        }
+      }
+    }
+  }
+
+  .service {
+    height: 200vh;
+
+    .info-head {
+      h2 {
+        font-size: 28px;
+      }
+
+      p {
+        padding: 5px;
+      }
+    }
+
+    .service-cards {
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+
+    .discount-product {
+      .info-discount {}
+    }
+
+    .show-discount {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .discount1 {
+        width: 350px;
+        height: 250px;
+
+        .info-discount {
+          h3 {
+            font-size: 16px;
+          }
+
+          h4 {
+            font-size: 22px;
+          }
+
+          .btn-discount {
+            button {
+              width: 80px;
+              height: 30px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      .discount2 {
+        width: 350px;
+        height: 250px;
+
+        .info-discount {
+          h3 {
+            font-size: 16px;
+          }
+
+          h4 {
+            font-size: 22px;
+          }
+
+          .btn-discount {
+            button {
+              width: 80px;
+              height: 30px;
+              font-size: 10px;
+            }
+          }
         }
       }
     }
 
+  }
+
+  .orders-page {
+    height: 75vh;
+
+    .orders-title {
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    .align-discount {
+      .discount {
+        width: 380px;
+        height: 300px;
+
+        img {
+          width: 140px;
+        }
+
+        .info-discount {
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+
+        .form-discount {
+          label {
+            font-size: 12px;
+          }
+
+          input {
+            width: 100px;
+            height: 20px;
+            font-size: 10px;
+          }
+
+          select {
+            height: 25px;
+            font-size: 10px;
+          }
+
+          button {
+            width: 50px;
+            font-size: 8px;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    height: 210vh;
+
+    .contact-info {
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    .display-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      .form-contact {
+        width: 370px;
+        height: 450px;
+
+        h3 {
+          font-size: 20px;
+        }
+
+        .form {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            width: 300px;
+          }
+
+          textarea {
+            width: 300px;
+          }
+        }
+      }
+    }
+
+    .map {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      iframe {
+        height: 200px;
+      }
+    }
+
+  }
+
+  .footer {
+    height: 45vh;
+
+    .info-footer {
+      display: flex;
+      justify-content: space-around;
+
+      .footer1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+       
+
+        .info1-footer {
+          display: flex;
+          flex-direction: column;
+
+          h3 {
+            font-size: 12px;
+          }
+
+          p {
+            font-size: 10px;
+          }
+        }
+
+        .info2-footer {
+          display: flex;
+          flex-direction: column;
+          
+        
+          h3 {
+            font-size: 12px;
+          }
+
+          p {
+            font-size: 10px;
+          }
+        }
+
+        .info-footer3 {
+          h3 {
+            font-size: 12px;
+          }
+
+          .cards {
+            .card-info3 {
+              p {
+                font-size: 10px;
+              }
+
+              span {
+                width: 10px;
+                font-size: 10px;
+              }
+
+              h5 {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+
+      .footer7 {
+        margin-top: -1.8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .info1-footer {
+          margin-top: -17px;
+          h3 {
+            font-size: 12px;
+          }
+
+          .icon3-info {
+            display: flex;
+            flex-direction: column;
+
+            .icon-call {
+              p {
+                font-size: 10px;
+              }
+            }
+
+            .icon-email {
+              p {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+
+        .info2-footer {
+          
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          h3 {
+            font-size: 12px;
+          }
+
+          .social-media1 {
+            .social-media {
+              p {
+                font-size: 10px;
+              }
+            }
+
+          }
+        }
+      }
+    }
   }
 
 
