@@ -60,6 +60,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+          
 
             .search {
                 display: flex;
@@ -138,6 +139,10 @@ body {
             &:hover {
                 background: $background-dark;
             }
+        }
+        .material-icons{
+            font-size: 30px;
+            color: white;
         }
     }
 

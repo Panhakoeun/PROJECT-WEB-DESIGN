@@ -172,6 +172,9 @@
                     border-radius: 5px;
                     height: 130px;
                     background-color: ghostwhite;
+                    img{
+                        width: 140px;
+                    }
 
                 }
 
@@ -180,6 +183,9 @@
                     height: 130px;
                     border-radius: 5px;
                     background-color: ghostwhite;
+                    img{
+                        width: 140px;
+                    }
 
                     &:hover {
                         border: 1px solid orangered;

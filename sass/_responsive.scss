@@ -1,5 +1,9 @@
 /* responsive laptop */
 @media (min-width: 1024px) {
+ 
+.product{
+  height: 100vh;
+} 
   .navbar {
     .logo {
       h2 {
@@ -14,10 +18,11 @@
   }
 
   .menu-page {
-    height: 420vh;
+    height: 485vh;
   }
 
   .service {
+    margin-top: 100px;
     .show-discount {
       display: flex;
       justify-content: space-around;
@@ -179,7 +184,7 @@
   }
 
   .service {
-    margin-top: 60%;
+    margin-top: 15%;
     height: 85vh;
 
     .service-cards {
@@ -247,7 +252,7 @@
   }
 
   .orders-page {
-    margin-top: 20%;
+    margin-top: 15%;
     height: 60vh;
 
     .align-discount {
@@ -317,4 +322,242 @@
     }
 
   }
+
+}
+
+// Phone
+
+@media (max-width: 699px) and (min-width: 350px) {
+  .navbar {
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: column;
+
+    .logo {
+
+      img {
+        width: 50px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+    }
+
+    .nav-center {
+      display: flex;
+      // flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1px;
+      margin-left: 280px;
+
+      li {
+
+        a {
+          font-size: 7px;
+        }
+      }
+
+      .nav-right {
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+        margin-right: 200px;
+
+        .search {
+          padding: 1px 2px;
+          display: flex;
+          justify-content: center;
+
+
+          input {
+            width: 40px;
+            font-size: 6px;
+          }
+
+          button {
+            width: 20px;
+            font-size: 5px;
+          }
+
+        }
+
+        .sign {
+          display: flex;
+          gap: 5px;
+          width: 150px;
+          margin-left: -35px;
+
+          .btn {
+            padding: 1px 1px;
+
+          }
+
+          .btn-outline {
+            padding: 1px 1px;
+
+          }
+
+          .material-icons {
+            font-size: 4vw;
+            line-height: 1;
+          }
+
+        }
+      }
+    }
+
+  }
+
+  .home-page {
+    margin-top: 70px;
+    height: 50vh;
+
+    .info-home {
+      width: 240px;
+      margin-left: -60px;
+
+      @keyframes glowPulse {
+
+        0%,
+        100% {
+          text-shadow: 0 0 5px $primary-color, 0 0 10px $primary-color;
+          color: $primary-color;
+        }
+
+        50% {
+          text-shadow: 0 0 20px $primary-color, 0 0 30px $primary-color;
+          color: lighten($primary-color, 15%);
+        }
+      }
+
+      h1 {
+        font-size: 30px;
+        margin: 0;
+        line-height: 1;
+        animation: glowPulse 2s infinite ease-in-out;
+
+        b {
+          font-size: 20px;
+          font-family: "Arial Black", Arial, sans-serif;
+          color: $secondary-color;
+        }
+
+      }
+
+      p {
+        font-size: 10px;
+      }
+
+      button {
+        padding: 3px 8px;
+        font-size: 10px;
+      }
+
+
+    }
+
+
+  }
+
+  .product {
+    height: 230vh;
+
+    .info-product {
+      h2 {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .menu-page {
+    height: 1580vh;
+
+    .menu-info {
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    .recoment {
+      margin-left: -80px;
+
+      h4 {
+
+        font-size: 20px;
+      }
+
+      .display-info {
+        display: flex;
+        gap: 5px;
+        justify-content: flex-start;
+        margin-left: 95px;
+        margin-top: 10px;
+
+        .display-info1 {
+          border: 1px solid gray;
+          @include button;
+
+          a {
+            text-decoration: none;
+            color: white
+          }
+
+        }
+
+        .display-info2 {
+          @include button-outline;
+
+          a {
+            text-decoration: none;
+            // color: black;
+
+          }
+
+          &:hover {
+            background-color: $primary-color;
+            color: white;
+          }
+        }
+      }
+
+    }
+
+    .product-detail {
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    .display-picture {
+      display: flex;
+      flex-direction: column;
+      .picture-product {
+        display: flex;
+        flex-direction: row;
+        
+        .picture{
+          margin-left: 5px;
+          width: 150px;
+          height: 200px;
+          img{
+            width: 120px;
+          }
+        }
+        .small-picture{
+          
+          
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
 }
