@@ -1282,12 +1282,24 @@ body {
   padding-top: 5px;
 }
 
+.footer .info-footer .footer7 .info1-footer .icon3-info .icon-call p:hover {
+  color: orange;
+  -webkit-text-decoration: underline solid orange;
+          text-decoration: underline solid orange;
+}
+
 .footer .info-footer .footer7 .info1-footer .icon3-info .icon-email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
   padding-top: 5px;
+}
+
+.footer .info-footer .footer7 .info1-footer .icon3-info .icon-email p:hover {
+  color: orange;
+  -webkit-text-decoration: underline solid orange;
+          text-decoration: underline solid orange;
 }
 
 .footer .info-footer .footer7 .info2-footer {
@@ -1310,6 +1322,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 5px;
+}
+
+.footer .info-footer .footer7 .info2-footer .social-media1 p:hover {
+  color: orange;
+  -webkit-text-decoration: underline solid orange;
+          text-decoration: underline solid orange;
 }
 
 .footer .info-footer .footer7 .info2-footer .social-media1 .social-media {
@@ -1421,7 +1439,7 @@ body {
     padding-bottom: 80px;
   }
   .menu-page {
-    height: 380vh;
+    height: 390vh;
   }
   .menu-page .recoment .display-info {
     margin-left: 20px;
@@ -1470,8 +1488,8 @@ body {
     width: 350px;
   }
   .service {
-    margin-top: 15%;
-    height: 85vh;
+    margin-top: 50px;
+    height: 95vh;
   }
   .service .service-cards {
     display: -webkit-box;

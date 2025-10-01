@@ -34,12 +34,26 @@
                         display: flex;
                         gap: 10px;
                         padding-top: 5px;
+
+                        p {
+                            &:hover {
+                                color: orange;
+                                text-decoration: underline solid orange;
+                            }
+                        }
                     }
 
                     .icon-email {
                         display: flex;
                         gap: 10px;
                         padding-top: 5px;
+
+                        p {
+                            &:hover {
+                                color: orange;
+                                text-decoration: underline solid orange;
+                            }
+                        }
                     }
                 }
 
@@ -47,15 +61,22 @@
             }
 
             .info2-footer {
-               display: flex;
-               flex-direction: column;
-               gap: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
                 .social-media1 {
                     display: flex;
                     flex-direction: column;
                     gap: 5px;
 
-                    .social-media{
+                    p {
+                        &:hover {
+                            color: orange;
+                            text-decoration: underline solid orange;
+                        }
+                    }
+
+                    .social-media {
                         display: flex;
                         gap: 10px;
                     }
