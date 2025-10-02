@@ -1385,7 +1385,7 @@ body {
 }
 
 /* Responsive tablet */
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .navbar .logo {
     margin-left: -30px;
   }
@@ -1436,7 +1436,7 @@ body {
     font-size: 40px;
   }
   .product {
-    padding-bottom: 80px;
+    padding-bottom: 95px;
   }
   .menu-page {
     height: 390vh;
@@ -1488,7 +1488,7 @@ body {
     width: 350px;
   }
   .service {
-    margin-top: 50px;
+    margin-top: 400px;
     height: 95vh;
   }
   .service .service-cards {
@@ -1599,7 +1599,7 @@ body {
   }
 }
 
-@media (max-width: 699px) and (min-width: 350px) {
+@media screen and (max-width: 600px) {
   .navbar {
     padding: 4px 8px;
     display: -webkit-box;
