@@ -98,6 +98,7 @@ body {
       font-weight: 500;
       padding: 6px 10px;
       transition: all 0.3s;
+     
 
       &:hover {
         color: $primary-color;
@@ -105,13 +106,9 @@ body {
         border-bottom: 2px solid #009688;
       }
 
-      &.active {
-        position: relative;
-        padding-bottom: 5px;
-        border-bottom: 2px solid $primary-color;
-        color: $primary-color;
-      }
+      
     }
+    
 
     .btn {
       background: $primary-color;

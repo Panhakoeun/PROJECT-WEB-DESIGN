@@ -134,13 +134,6 @@ body {
   border-bottom: 2px solid #009688;
 }
 
-.navbar .nav-center li a.active {
-  position: relative;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #009688;
-  color: #009688;
-}
-
 .navbar .nav-center .btn {
   background: #009688;
   padding: 6px 14px;
